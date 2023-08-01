@@ -1,0 +1,23 @@
+{
+  "name": "unsplash-scraper",
+  "version": "0.1.0",
+  "description": "Unsplash Image Scrape and Download with Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm dev"
+  },
+  "keywords": [
+    "unsplash",
+    "scraper",
+    "download",
+    "nodejs"
+  ],
+  "author": "Chen Lay<info@chanmyaemaung.net>",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^20.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
