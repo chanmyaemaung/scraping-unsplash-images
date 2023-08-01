@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "pnpm dev"
+    "dev": "node index.js"
   },
   "keywords": [
     "unsplash",
@@ -16,6 +16,7 @@
   "author": "Chen Lay<info@chanmyaemaung.net>",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "puppeteer": "^20.9.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2"
